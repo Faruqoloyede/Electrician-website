@@ -1,0 +1,79 @@
+.hero {
+   background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url('../img/bg.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+}
+
+img {
+   width: 100%;
+   padding: 50px;
+}
+
+.logo {
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+.navmenu li a {
+   color: #fff;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.navmenu li a:hover {
+   color: #FFC107;
+}
+
+.hero {
+   padding-top: 20%;
+}
+
+.hero h5 {
+   font-size: 30px;
+   line-height: 3px;
+}
+
+.hero h1 {
+   font-size: 80px;
+}
+
+.about {
+   background-color: #F0F0F0;
+}
+
+.about h1 {
+   color: #36454F;
+}
+
+.about p {
+   font-size: 20px;
+   padding-top: 20px;
+}
+
+.image {
+   width: 50%;
+}
+
+@media (max-width:680px) {
+   #navmenu {
+      background: black;
+   }
+
+   .hero {
+      padding-top: 50%;
+   }
+
+   .hero h5 {
+      font-size: 20px;
+      line-height: 3px;
+   }
+
+   .hero h1 {
+      font-size: 50px;
+   }
+   .image {
+      width: 100%;
+   }
+}
