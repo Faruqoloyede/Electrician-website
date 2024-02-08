@@ -8,7 +8,6 @@
 
 img {
    width: 100%;
-   padding: 50px;
 }
 
 .logo {
@@ -40,7 +39,7 @@ img {
 }
 
 .about {
-   background-color: #F0F0F0;
+   background-color: #fff;
 }
 
 .about h1 {
@@ -56,10 +55,52 @@ img {
    width: 50%;
 }
 
+.service {
+   background-color: #F0F0F0;
+   padding-top: 100px;
+   padding-bottom: 20px;
+}
+
+.service_row {
+   gap: 15px;
+   padding-top: 50px;
+}
+
+.service_grid {
+   background-color: #fff;
+   position: relative;
+}
+
+.service_grid a {
+   text-decoration: none;
+   color: #FFC107;
+   font-size: 20px;
+}
+
+.service img {
+   width: 150px;
+   padding: 20px;
+}
+
+.project {
+   padding: 40px 0px;
+}
+
+.footer p {
+   color: #36454F;
+   margin: 20px 0;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.header_scroll {
+   background-color: #36454F;
+}
+
 @media (max-width:680px) {
-   #navmenu {
+   /* #navmenu {
       background: black;
-   }
+   } */
 
    .hero {
       padding-top: 50%;

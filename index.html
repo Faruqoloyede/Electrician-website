@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top" id="header">
         <div class="container">
             <a href="#" class="navbar-brand text-light logo">Elect<span class="text-warning">rician</span></a>
 
@@ -19,8 +19,9 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto p-3 navmenu text-sm-start text-center">
                     <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
@@ -37,7 +38,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div class="text_about text-sm-start text-center">
@@ -49,7 +50,86 @@
             </div>
         </div>
     </section>
-    
+
+    <section class="service" id="service">
+        <div class="container">
+            <h1>OUR FEATURED SERVICES</h1>
+            <div class="row service_row text-center">
+                <div class="col-md service_grid py-3">
+                    <img src="img/repair.png"/>
+                    <div class="inner_text">
+                        <h2>DIANOSIS AND REPAIR</h2>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere et officia obcaecati fugit eius molestias ab quos necessitatibus impedit quam.</P>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+                <div class="col-md service_grid py-3">
+                    <img src="img/install.png"/>
+                    <div class="inner_text">
+                        <h2>INSTALL & UPGRADE</h2>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere et officia obcaecati fugit eius molestias ab quos necessitatibus impedit quam.</P>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+                <div class="col-md service_grid py-3">
+                    <img src="img/maint.png"/>
+                    <div class="inner_text">
+                        <h2>ELECTRICAL MAINTENANCE</h2>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere et officia obcaecati fugit eius molestias ab quos necessitatibus impedit quam.</P>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="container">
+            <h1>OUR PROJECTS</h1>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <img src="img/w2.jpg" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/w3.jpg" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/w4.jpg" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/w5.jpg" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/w6.jpg" />
+                </div>
+                <div class="col-md-4">
+                    <img src="img/work.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact text-center" id="contact">
+        <div class="container">
+
+            <h1 class="my-3">CONTACT US</h1>
+            <div class="mb-3">
+
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="first name">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button class="btn btn-warning btn-lg">SEND</button>
+        </div>
+    </section>
+    <hr>
+    <section class="footer text-center">
+        <div class="container">
+            <p>All Right Reserved &copy; 2024 </p>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
